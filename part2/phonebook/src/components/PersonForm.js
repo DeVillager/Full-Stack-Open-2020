@@ -9,7 +9,6 @@ const PersonForm = (props) => {
 
   return (
     <div>
-      <h2>add a new</h2>
       <form>
         <div>
           name: <input value={newName} onChange={handleNameChange} />
